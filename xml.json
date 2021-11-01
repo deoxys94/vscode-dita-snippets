@@ -1,0 +1,44 @@
+{
+	"DITA Map":
+	{
+		"prefix": "dita-map",
+		"body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE map PUBLIC \"-//OASIS//DTD DITA Map//EN\" \"map.dtd\">\n<map>\n\t<title></title>\n</map>",
+		"description": "Template for a DITA map"
+	},
+	"DITA Topic":
+	{
+		"prefix": "dita-topic-template",
+		"body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE topic PUBLIC \"-//OASIS//DTD DITA Topic//EN\" \"topic.dtd\">\n<topic id=\"${1:topic_id}\">\n\t<title>${2:title}</title>\n\t<body>\n\t\t<p></p>\n\t</body>\n</topic>",
+		"description": "Template for a DITA topic"
+	},
+	"DITA task":
+	{
+		"prefix": "dita-task-template",
+		"body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE task PUBLIC \"-//OASIS//DTD DITA Task//EN\" \"task.dtd\">\n<task id=\"${1:task_id}\">\n\t<title>${2:title}</title>\n\t<shortdesc></shortdesc>\n\t<taskbody>\n\t\t<context>\n\t\t\t<p></p>\n\t\t</context>\n\t\t<steps>\n\t\t\t<step>\n\t\t\t\t<cmd></cmd>\n\t\t\t</step>\n\t\t</steps>\n\t</taskbody>\n</task>",
+		"description": "Template for a DITA task"
+	},
+	"Empty DITA task":
+	{
+		"prefix": "dita-task",
+		"body": "<task id=\"${1:task_id}\">\n</task>",
+		"description": "An empty <task> element"
+	},
+	"DITA concept":
+	{
+		"prefix": "dita-concept-template",
+		"body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE concept PUBLIC \"-//OASIS//DTD DITA Concept//EN\" \"concept.dtd\">\n<concept id=\"${1:concept_id}\">\n\t<title>${2:title}</title>\n\t<shortdesc></shortdesc>\n\t<conbody>\n\t\t<p></p>\n\t</conbody>\n</concept>",
+		"description": "Template for a DITA concept file"
+	},
+	"Empty DITA topic":
+	{
+		"prefix": "dita-topic",
+		"body": "<topic id=\"${1:topic_id}\">\n</topic>",
+		"description": "An empty <topic> element"
+	},
+	"DITA step":
+	{
+		"prefix": "dita-step",
+		"body": "<step>\n\t<cmd>${1:}</cmd>\n</step>",
+		"description": "A <step> element with <cmd> inside"
+	}
+}
